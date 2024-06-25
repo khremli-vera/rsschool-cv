@@ -1,5 +1,7 @@
 # Vera Khremli
 
+![Vera's photo](\img\photo_2023-07-23_22-17-21.jpg)
+
 ## Contacts:
 
 * Phone [+375298550739](tel:+375298550739)
