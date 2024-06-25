@@ -1,6 +1,6 @@
 # Vera Khremli
 
-![Vera's photo](\img\photo_2023-07-23_22-17-21.jpg)
+![Vera's photo](img/photo_2023-07-23_22-17-21.jpg)
 
 ## Contacts:
 
