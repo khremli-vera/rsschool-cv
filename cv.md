@@ -2,11 +2,11 @@
 
 ## Contacts:
 
-* Phone [+375298550739](tel:+1234567890)
+* Phone [+375298550739](tel:+375298550739)
 * Telegram @Vera_Khremli
 * mail
     + [vera-khremli@gmail.com](mailto:vera-khremli@gmail.com)
-* [linkedin](https://linkedin.com/)
+* Discord Vera Khremli (@khremli-vera)
 
 ## About myself:
 My **goal**: to become frontend developer, at the moment to develop myself in learning js and then learn several frameworks.
@@ -60,7 +60,7 @@ html-academy:
 * training simulators for creating interactive elements (sliders, toggles, forms, catalogues) (html + css+js)
 * training project "Library" landing (html + css+js);
 * training project ["CV"](https://github.com/khremli-vera/rsschool-cv/blob/gh-pages/cv.md)
-===
+
 ## Education:
 
 |Education/courses                                              | Period    |
@@ -83,5 +83,5 @@ html-academy:
 ## Languages
 
 * English B1
-The language practice takes place by communicating with colleagues, business correspondence, using sources for education in English/
+The language practice takes place by communicating with colleagues, business correspondence, using sources for education in English
 * German basics
