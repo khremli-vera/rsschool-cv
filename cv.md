@@ -2,7 +2,7 @@
 
 ## Contacts:
 
-* Phone [375298550739]("tel:1234567890")
+* [Phone +375298550739]("tel:1234567890")
 * Telegram @Vera_Khremli
 * mail  
     + [vera-khremli@gmail.com](mailto:vera-khremli@gmail.com)
