@@ -3,6 +3,18 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0 auto;
     font-size: 24px;
+    scroll-behavior: smooth;
+    
+}
+
+body a {
+    transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
 }
 
 header, footer {
@@ -20,7 +32,32 @@ nav ul {
 
 nav ul li {
     padding: 20px 50px;
+} 
+
+
+@media (max-width: 768px) {
+    header {
+        font-size: 14px;
+    }
+
+    .hero img {
+        align-self: flex-start;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+    }
+
+   
 }
+
+@media (max-width: 1024px) {
+    nav ul li {
+        padding: 10px 20px;
+    }
+}
+
+
 
 nav ul li a {
     color: white;
@@ -56,8 +93,38 @@ h1 {
     margin: 0;
 }
 
+@media (max-width: 1024px) {
+    
+    .hero {
+        padding: 50px 75px;
+    }
+
+    h1 {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .hero {
+        padding: 30px 20px;
+        flex-direction: column;
+        height: auto;
+        background-position: 0 0;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
+
+
+
+
 .hero img {
-    width: 400px;
+    width: 50%;
+    padding-left: 20px;
 }
 
 h2 {
@@ -86,6 +153,13 @@ h1 span {
     color: #A0653D;
     font-style: italic;
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+    .about {
+    padding: 50px 20px;
+    }
 }
 
 .skills {
@@ -148,13 +222,22 @@ h1 span {
     margin-right: auto;
 }
 
+@media (max-width: 768px) {
+
+    .edu-table  {
+    margin: 0;
+    width: 100%;
+    }
+}
+
 td, th {
     padding: 20px 10px;
     border: 1px solid white;
 }
 
 th {
-    border: 1px solid #A0653D;
+    /* border: 1px solid #A0653D; */
+    color: #A0653D;
 }
 
 .edu h3, .projectItem h3 {
@@ -175,6 +258,10 @@ h3 {
     font-size: 20px;
 }
 
+.certificate-item a:hover {
+    color: #A0653D;
+}
+
 .language {
     display: flex;
     padding-top: 50px;
@@ -183,6 +270,13 @@ h3 {
     align-items: stretch;
     border-top: 3px solid #edf2f0;
     border-bottom: 3px solid #edf2f0;
+}
+
+@media (max-width: 1024px) {
+    .language {
+        flex-direction: column;
+        padding-right: 20px;
+    }
 }
 
 .language h2, 
@@ -200,6 +294,7 @@ h3 {
 .lang-list {
     background: linear-gradient(#72513D, #CD8E61, #D19062, #A6704C) ;
     padding: 10px 20px;
+    width: auto;
 }
 
 .lang-item {
@@ -216,30 +311,71 @@ h3 {
 .projects {
     margin-top: 50px;
     background-color: #faeade9f;
-    padding: 20px;
+    padding: 20px 20px 40px;
 }
 
 .projects-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .project-item {
     width: 45%;
     border: 3px solid #173F35;
     padding : 20px;
+    margin-bottom: 30px;
+}
+
+.project-item:hover {
+/* background-color: antiquewhite; */
+transition: all 0.5s;
+background-color: #fff;
+box-shadow: 0px 2px 35px 14px #0D0D0D0A;
+cursor: pointer;
+
+}
+
+.project-item:hover p,
+.project-item:hover h3 {
+    color:#348f78;
+}
+
+
+.top-position img {
+    object-position: top;
+}
+
+@media (max-width: 1024px) {
+    .project-item {
+        width: 100%;
+}
 }
 
 .project-item img {
     width: 100%;
+    height: 250px;
+    object-fit: cover;
+    
 }
 
 .code-exapmle {
     background-image: url("https://w.forfun.com/fetch/9f/9fdd6e562821f38bdaac4463f58d7f64.jpeg");
-    background-size: 100%;
+    background-size: cover;
     padding: 20px;
-    background-position: 0% 100%;
+    background-position: 100% 100%;
+    /* width: 100%; */
+    overflow-x: auto;
+    background-repeat: no-repeat;
 }
+
+@media (max-width: 1024px) {
+    .code-exapmle {
+    background-position: 0 0;
+}
+}
+
+
 
 .contacts {
     background-color: #142A24;
@@ -260,9 +396,26 @@ h3 {
     margin-bottom: 10px;
 }
 
+@media (max-width: 1024px) {
+    .contact-item  { 
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-item  { 
+        width: 100%;
+    }
+}
+
 .contact-item a {
     color:#D19062;
     text-decoration: none;
+}
+
+
+.contact-item a:hover {
+    color: #fff;
 }
 
 nav ul {
@@ -277,11 +430,28 @@ footer {
     padding: 20px 100px;
 }
 
+@media (max-width: 1024px) {
+    footer  { 
+        padding: 20px;
+    }
+}
+
 footer a {
     color: white;
     text-decoration: none;
 }
 
+footer a:hover {
+    color:#D19062;
+}
+
 footer img {
     width: 56px;
+}
+
+
+@media (max-width: 768px) {
+    h2  { 
+        font-size: 28px;
+    }
 }
