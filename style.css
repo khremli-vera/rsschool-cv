@@ -41,7 +41,7 @@ nav ul li {
     }
 
     .hero img {
-        align-self: flex-start;
+        padding-left: 0;
     }
 
     nav ul {
@@ -81,7 +81,7 @@ ul {
     height: 400px;
     color: white;
     font-weight: 700;
-    background-image: url("https://w.forfun.com/fetch/66/661745a9aeff67239869bc0db1218c4c.jpeg");
+    background-image: url("./img/wood-texture-137.jpg");
     background-size: 100%;
     padding: 100px 200px;
 }
@@ -112,6 +112,7 @@ h1 {
         height: auto;
         background-position: 0 0;
         background-size: cover;
+        align-items: center;
     }
 
     h1 {
