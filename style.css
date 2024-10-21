@@ -329,10 +329,10 @@ h3 {
 }
 
 .project-item:hover {
-  /* background-color: antiquewhite; */
+  background-color: #faf6f37a;
   transition: all 0.5s;
-  background-color: #fff;
-  box-shadow: 0px 2px 35px 14px #0d0d0d0a;
+  /* opacity: 0.95; */
+  box-shadow: 0px 2px 35px 14px #0d0d0d13;
   /* cursor: pointer; */
 }
 
